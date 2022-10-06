@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap);
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 13, 13);
+    color: white;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.logo
+{
+    position: relative;  
+    left: 100px; 
+}
+.navitem
+{
+    display: flex;
+    margin: auto;
+    
+}
+.navitem a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.book .btn
+{
+    border-radius: 20px;
+    background-color: rgb(36,13,13);
+    border: 1px solid  #29d9d5;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 110px;
+
+    color: #29d9d5;
+}
+.photographer
+{
+    background-color: rgb(244, 211, 217);
+    margin:auto;
+    display: block;
+    border-radius: 10px;
+    padding: 2px;
+    width: 1245px;
+}
+.photographer h3
+{
+    color: blue;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.photographer p
+{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+.container .l
+{
+    width: 400px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border:1px solid red ; */
+}
+.item1{
+    background-image: url("Image1.jpg");
+    background-size: cover;
+}
+.item2{
+    background-image: url("image2.jpg");
+    background-size: cover;
+    
+}
+.item3{
+    background-image: url("image3.jpg");
+    background-size: cover;
+}
+.item4{
+    background-image: url("image4.jpg");
+    background-size: cover;
+}
+.item5{
+    background-image: url("image5.jpg");
+    background-size: cover;
+}
+.item6{
+    background-image: url("image6.jpg");
+    background-size: cover;
+    
+}
