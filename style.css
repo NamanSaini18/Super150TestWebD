@@ -15,6 +15,10 @@ body
     margin-bottom: 20px;
     padding: 20px;
 }
+.header .navbar a:hover{
+    color:#29d9d5;
+}
+
 .logo
 {
     position: relative;  
@@ -103,5 +107,5 @@ body
 .item6{
     background-image: url("image6.jpg");
     background-size: cover;
-    
+   
 }
